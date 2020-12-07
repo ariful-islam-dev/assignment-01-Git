@@ -1,0 +1,18 @@
+Remote Repositories (on GitHub & Bitbucket)
+
+Storing a copy of your Git repo with an online host gives you a centrally located place where you can upload your changes and download changes from others, letting you collaborate more easily with other developers. After you have a remote repository set up, you upload (push) your files and version history to it. After someone else makes changes to a remote repo, you can download (pull) their changes into your local repo.
+
+
+Branches & Merging
+
+git lest you branch out from the original code base. This lest you easily work with other developers, and gives you a lot of flexibility in your workflow.
+
+Here’s an example of how git branches are useful. Let’s say you need to work on a new feature for a website. You create a new branch and start working. You haven’t finished your new feature, but you get a request to make a rush change that needs to go live on the site today. You switch back to the master branch, make the change, and push it live. Then you can switch back to your new feature branch and finish your work. When you’re done, you merge the new feature branch into the master branch and both the new feature and rush change are kept!
+
+When you merge to branches you can sometimes get a conflict. For example , you and another developer unknowingly both work on the same part of a file. The other developer pushes their changes to the remote repo. When you then pull them to your local repo you’ll  get a merge conflict. Luckily Git has a way to handle conflicts, so you can see both sets of changes and decide which you want to keep.
+
+Pull Requests
+
+Pull requests are a way to dicuss changes before merging them into your codebase. Let’s say you’re managing a project. A developer makes changes on a new branch and would like to merge that branch into the master. They can create a pull request to notify you to review their code. You can discuss the changes, and dicide if  you want to merge it or not
+
+
