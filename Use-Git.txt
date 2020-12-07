@@ -1,0 +1,3 @@
+Ways to Use Git
+
+Git is software that you can access via a command line , or a desktop app that has a GUI such as Source-tree shown blow.
