@@ -1,0 +1,5 @@
+Git Repositories
+
+A Git repository contains all of the project files and the entire reversion history. You’ll take and ordinary folder of files, and tell Git to make it a repository. This creates a .git subfolder, which contains all of the Git metadata for tracking changes.
+
+On Unix-based operating systems such as macOS, files and folders that start with a period (.) are hidden, so you will not see the .git folder in the macOS Finder unless you show hidden files, but it’s there! You might be able to see it in some code editors.
